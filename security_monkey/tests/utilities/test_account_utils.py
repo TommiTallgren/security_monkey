@@ -18,8 +18,8 @@
 .. moduleauthor::  Mike Grima <mgrima@netflix.com>
 """
 from security_monkey.exceptions import AccountNameExists
-from security_monkey.manage import AddAccount, manager
-from security_monkey import db
+#from security_monkey.manage import AddAccount, manager /test
+#from security_monkey import db /test
 from security_monkey.datastore import AccountType, Account, AccountTypeCustomValues
 from security_monkey.tests import SecurityMonkeyTestCase
 
